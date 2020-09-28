@@ -39,7 +39,7 @@ websiteApi.getByParse = url => {
 websiteApi.update = (websiteId, website) => {
   return service({
     url: `${baseUrl}/${websiteId}`,
-    data: link,
+    data: website,
     method: 'put'
   })
 }

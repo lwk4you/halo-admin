@@ -331,7 +331,7 @@ export default {
         this.website = response.data.data
       })
     },
-    createOrUpdateWbsite() {
+    createOrUpdateWebsite() {
       if (!this.website.name) {
         this.$notification['error']({
           message: '提示',
